@@ -1,0 +1,24 @@
+{
+  "name": "sass-embedded-benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/activeguild/sass-embedded-benchmark.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/activeguild/sass-embedded-benchmark/issues"
+  },
+  "homepage": "https://github.com/activeguild/sass-embedded-benchmark#readme",
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "sass": "^1.49.7",
+    "sass-embedded": "^1.49.7"
+  }
+}
