@@ -1,7 +1,6 @@
 # sass-embedded-benchmark
 
 ## simple
-#### target
 ```scss
 .test {
     border: {
@@ -28,4 +27,15 @@ sass-embedded compile sync x 15.06 ops/sec ±0.90% (71 runs sampled)
 sass compileAsync async x 1,883 ops/sec ±2.43% (78 runs sampled)
 sass-embedded compilegAsync async x 38.65 ops/sec ±0.94% (61 runs sampled)
 Fastest is sass compileString sync
+```
+
+## uses
+[date-picker.scss](https://github.com/activeguild/sass-embedded-benchmark/blob/main/source/src/date-picker.scss)
+
+```bash
+sass compile sync x 13.75 ops/sec ±11.05% (71 runs sampled)
+sass-embedded compile sync x 8.98 ops/sec ±4.40% (46 runs sampled)
+sass compileAsync async x 7.81 ops/sec ±6.11% (43 runs sampled)
+sass-embedded compilegAsync async x 14.71 ops/sec ±1.81% (70 runs sampled)
+Fastest is sass-embedded compilegAsync async
 ```
